@@ -15,7 +15,8 @@
     "serve": {
       "executor": "@nx/next:server",
       "options": {
-        "buildTarget": "clubbayer1:build"
+        "buildTarget": "clubbayer1:build",
+        "port": 3000
       }
     }
   }
