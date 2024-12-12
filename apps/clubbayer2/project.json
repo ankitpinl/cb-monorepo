@@ -1,21 +1,21 @@
 {
-  "name": "clubbayer1",
+  "name": "clubbayer2",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/clubbayer1",
+  "sourceRoot": "apps/clubbayer2",
   "projectType": "application",
   "tags": [],
-  "// targets": "to see all targets run: nx show project clubbayer1 --web",
+  "// targets": "to see all targets run: nx show project clubbayer2 --web",
   "targets": {
     "build": {
       "executor": "@nx/next:build",
       "options": {
-        "outputPath": "dist/apps/clubbayer1"
+        "outputPath": "dist/apps/clubbayer2"
       }
     },
     "serve": {
       "executor": "@nx/next:server",
       "options": {
-        "buildTarget": "clubbayer1:build"
+        "buildTarget": "clubbayer2:build"
       }
     }
   }
